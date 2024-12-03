@@ -1,9 +1,21 @@
-from calendar_agent import CalendarAgent
-from chat_interface import ChatInterface
+# from calendar_agent import CalendarAgent
+# from chat_interface import ChatInterface
+
+# def main():
+#     agent = CalendarAgent()
+#     ChatInterface.start_chat(agent)
+
+# if __name__ == '__main__':
+#     main()
+
+
+
+# # main.py
+from ai_assistant import AICalendarAssistant
 
 def main():
-    agent = CalendarAgent()
-    ChatInterface.start_chat(agent)
+    assistant = AICalendarAssistant()
+    assistant.start_chat()
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
