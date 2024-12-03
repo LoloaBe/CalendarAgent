@@ -1,3 +1,11 @@
+# Conversational Interface:
+
+# Runs an interactive loop in chat() method
+# Recognizes keywords related to appointments
+# Dynamically generates responses about calendar events
+# Provides random helpful messages for off-topic inputs
+# Allows user to exit conversation
+
 import random
 
 class ChatInterface:
